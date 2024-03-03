@@ -17,9 +17,8 @@ including visual prompt tuning ([**VPT**](https://github.com/KMnP/vpt)) and [**P
 Detailed results can be found in the following tables.
 
 ## The Low-Norm Effect
-![Diagram of the Low-Norm Effect](./figures/low_norm_effect.jpg)
+![Diagram of the Low-Norm Effect](./figures/low_norm_effect.jpg){:height="60%" width="60%"}
 
- <img src="./figures/low_norm_effect.jpg" width = "200" height = "200" alt="Diagram of the Low-Norm Effect" align=center />
 
 
 

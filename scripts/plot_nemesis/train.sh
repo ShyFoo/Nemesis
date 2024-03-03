@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # custom config
-DATA=../dataset/CoOp
+DATA=/path/to/dataset
 TRAINER=PLOTNemesis
 N=4  # number of proxy
 
@@ -24,6 +24,7 @@ do
     else
         DIR=output/${DATASET}/${TRAINER}/Beta-${BETA}/${CFG}_${SHOTS}shots/N${N}_alpha${ALPHA}_nctx${NCTX}_csc${CSC}_ctp${CTP}_nt${NT}/seed${SEED}
     fi
+
     LOG_FILE="${DIR}/log.txt"
     if [ -d "$DIR" ] && [ -f "${LOG_FILE}" ] && tail -n 2 "${LOG_FILE}" | grep -q "Elapsed"; then
         echo "Oops! The results exist at ${DIR} (so skip this job)"
@@ -32,6 +33,7 @@ do
         if [ -d "$DIR" ]; then
             rm -r ${DIR}/*
         fi
+
         python train.py \
         --root ${DATA} \
         --seed ${SEED} \

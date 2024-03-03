@@ -79,7 +79,7 @@ def reset_cfg(cfg, args):
 
     if args.corrupt_type:
         cfg.POS = args.corrupt_position
-        cfg.WEIGHT = args.gs_weight
+        cfg.WEIGHT = args.crt_factor
 
     cfg.TEST.DO_TEST = args.do_test
 
@@ -259,8 +259,8 @@ if __name__ == "__main__":
         help="the type of corrupted prompt"
     )
     parser.add_argument(
-        "--gs-weight", type=float, default=None,
-        help="weight for std or scale in the corrupting experiments"
+        "--crt-factor", type=float, default=None,
+        help="the corruption weight in corruption experiments (std in replacing operations or scaling factor in rescaling operations)"
     )
     parser.add_argument(
         "--corrupt-position", type=int, default=None,

@@ -19,9 +19,9 @@ DATASET=(
     "imagenet"
 )
 
-CFG=$1  # config file
+CFG=$1  # # config file (rn50_ep50.yaml, rn50_ep100.yaml, rn50.yaml, etc.)
 CTP=$2  # class token position (end or middle)
-NCTX=$3  # number of context tokens
+NCTX=$3  # number of context tokens (4, 16, etc.)
 SHOTS=$4  # number of shots (1, 2, 4, 8, 16)
 CSC=$5  # class-specific context (False or True)
 EPOCH=$6  # number of epochs

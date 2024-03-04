@@ -71,19 +71,24 @@ thereby reducing the probability of learning degradation.
 </figure>
 
 <figure>
-    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
+    <figcaption><strong><em>Domain generalization</em></strong></figcaption>
     <img src="./figures/result_domain_generalization.jpg" style="width: 50%" alt="The result of domain generalization task">
 </figure>
 
 <figure>
-    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
-    <img src="./figures/reulst_base_to_new.jpg" style="width: 40%" alt="The result of base-to-new task">
+    <figcaption><strong><em>Base-to-new generalization</em></strong></figcaption>
+    <img src="./figures/result_base_to_new.jpg" style="width: 40%" alt="The result of base-to-new task">
 </figure>
+
+---
 
 ## How to Run
 
+
+
+
 ## Citation
-If you use our work, please consider citing:
+If you use this code in your research, please kindly cite the following paper:
 ```bibtex
 @inproceedings{nemesis,
     title={Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models},
@@ -95,6 +100,6 @@ If you use our work, please consider citing:
 
 
 ## Acknowledgements
-Our code is based on [Co-CoOp and CoOp](https://github.com/KaiyangZhou/CoOp). 
+Our code is based on [CoOp](https://github.com/KaiyangZhou/CoOp). 
 We thank the authors for releasing their code. 
 If you use our model and code, please consider citing these works as well.

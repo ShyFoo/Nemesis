@@ -6,9 +6,9 @@ TRAINER=CoOp
 
 # input configs
 DATASET=$1  # imagenet, sun397, caltech101, eurosat, food101, oxford_flowers, stanford_cars, ucf101, dtd, fgvc_aircraft, oxford_pets
-CFG=$2  # config file
+CFG=$2  # config file (rn50_ep50, rn50_ep100, rn50, etc.)
 CTP=$3  # class token position (end or middle)
-NCTX=$4  # number of context tokens
+NCTX=$4  # number of context tokens (4, 16, etc.)
 SHOTS=$5  # number of shots (1, 2, 4, 8, 16)
 CSC=$6  # class-specific context (False or True)
 

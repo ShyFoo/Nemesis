@@ -18,7 +18,7 @@ including [**visual prompt tuning**](https://github.com/KMnP/vpt) and [**prefix-
 Detailed results can be found in the following tables.
 
 ## The Low-Norm Effect
- <img src="./figures/low_norm_effect.jpg" style="text-align: center" width = "456" height = "285" alt="Diagram of the Low-Norm Effect">
+ <img src="./figures/low_norm_effect.jpg" style="text-align: center" width = "456" height = "285" alt="The Low-Norm Effect">
 
 A schematic diagram of the Low-Norm Effect: the reduction of norms at specific positions within these prompts enhances performance,
 whereas an increase in norms typically results in performance deterioration. 
@@ -26,16 +26,16 @@ _**Top**_: corrupted soft prompts with increased norms leading to decreased perf
 _**Middle**_: soft prompts learned by CoOp; 
 _**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced performance.
 
-<hr>
+---
 
- <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "275" alt="Diagram of the Low-Norm Effect">
+ <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "275" alt="The frequency across 11 datasets">
 
 The occurrence frequency of the Low-Norm Effect across 11 datasets. 
 Each distinct color or geometrical shape represents a different dataset.
 
-<hr>
+---
 
- <img src="./figures/low_norm_effect_explanation.jpg" style="text-align: center" width = "456" height = "275" alt="Diagram of the Low-Norm Effect">
+ <img src="./figures/low_norm_effect_explanation.jpg" style="text-align: center" width = "456" height = "285" alt="Explanation">
 
 
 

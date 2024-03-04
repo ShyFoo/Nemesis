@@ -29,7 +29,7 @@ _**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced pe
 ---
 <figure>
     <img src="./figures/low_norm_effect_frequency.jpg" style="width: 49%; text-align: center" alt="The frequency across 11 datasets">
-    <figcaption>The frequency of the Low-Norm Effect across 11 datasets</figcaption>
+    <figcaption><strong><em>The frequency of the Low-Norm Effect across 11 datasets</em></strong></figcaption>
 </figure>
 
 

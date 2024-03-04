@@ -18,7 +18,7 @@ including [**visual prompt tuning**](https://github.com/KMnP/vpt) and [**prefix-
 Detailed results can be found in the following tables.
 
 ## The Low-Norm Effect
- <img src="./figures/low_norm_effect.jpg" style="text-align: center" width = "456" height = "285" alt="The Low-Norm Effect">
+ <img src="./figures/low_norm_effect.jpg" style="width: 60%; text-align: center"alt="The Low-Norm Effect">
 
 A schematic diagram of the Low-Norm Effect: the reduction of norms at specific positions within these prompts enhances performance,
 whereas an increase in norms typically results in performance deterioration. 
@@ -28,29 +28,26 @@ _**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced pe
 
 ---
 
- <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "275" alt="The frequency across 11 datasets">
+ <img src="./figures/low_norm_effect_frequency.jpg" style="width: 49%; text-align: center" alt="The frequency across 11 datasets">
 
 The occurrence frequency of the Low-Norm Effect across 11 datasets. 
 Each distinct color or geometrical shape represents a different dataset.
 
 ---
 
- <img src="./figures/low_norm_effect_explanation1.jpg" style="width: 49%; text-align: center" alt="Explanation">
+<div style="display:flex; flex-direction: row">
+    <img src="./figures/low_norm_effect_explanation1.jpg" alt="Explanation 1" style="width: 49%">
+    <img src="./figures/low_norm_effect_explanation2.jpg" alt="Explanation 2" style="width: 49%">
+</div>
 
-Different from the observed norm variation pattern in CoOp, 
-CoOp+Nemesis (ours) exhibits a distinct trend where norms initially increase,
-followed by a subsequent decrease, and eventually stabilize.
+From the left figure, we observe a distinct norm variation pattern in CoOp+Nemesis (ours) that differs from CoOp.
+This pattern demonstrates an initial increase in norms, followed by a subsequent decrease,
+and eventually reaching a stable state.
 Furthermore, the test accuracy exhibits a consistent upward trend before reaching a plateau,
 whereas a declining trend is observed in CoOp. 
 This implies that our method can delay the time point where soft prompts tend to plateau during the learning process,
 thereby reducing the probability of learning degradation.
 
----
-
-<div style="display:flex;">
-    <img src="./figures/low_norm_effect_explanation1.jpg" alt="Explanation 1" style="width:49%;">
-    <img src="./figures/low_norm_effect_explanation2.jpg" alt="Explanation 2" style="width:49%;">
-</div>
 
 
 [//]: # ()

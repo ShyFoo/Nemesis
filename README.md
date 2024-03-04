@@ -67,7 +67,7 @@ thereby reducing the probability of learning degradation.
 ## Main Results
 <div style="display:flex; flex-direction: row">
     <img src="./figures/result_few_shot_classification.jpg" alt="Result 1" style="width: 29%">
-    <img src="./figures/result_domain_generalization.jpg" alt="Result 2" style="width: 29%">
+    <img src="./figures/result_domain_generalization.jpg" alt="Result 2" style="width: 50%">
     <img src="./figures/reulst_base_to_new.jpg" alt="Result 3" style="width: 29%">
 </div>
 

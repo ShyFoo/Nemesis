@@ -18,7 +18,7 @@ including [**visual prompt tuning**](https://github.com/KMnP/vpt) and [**prefix-
 Detailed results can be found in the following tables.
 
 ## The Low-Norm Effect
- <img src="./figures/low_norm_effect.jpg" style="width: 60%; text-align: center"alt="The Low-Norm Effect">
+ <img src="./figures/low_norm_effect.jpg" style="width: 60%; text-align: center" alt="The Low-Norm Effect">
 
 A schematic diagram of the Low-Norm Effect: the reduction of norms at specific positions within these prompts enhances performance,
 whereas an increase in norms typically results in performance deterioration. 

@@ -35,8 +35,22 @@ Each distinct color or geometrical shape represents a different dataset.
 
 ---
 
- <img src="./figures/low_norm_effect_explanation.jpg" style="text-align: center" width = "456" height = "285" alt="Explanation">
+ <img src="./figures/low_norm_effect_explanation1.jpg" style="text-align: center" width = "456" height = "285" alt="Explanation">
 
+Different from the observed norm variation pattern in CoOp, 
+CoOp+Nemesis (ours) exhibits a distinct trend where norms initially increase,
+followed by a subsequent decrease, and eventually stabilize.
+Furthermore, the test accuracy exhibits a consistent upward trend before reaching a plateau,
+whereas a declining trend is observed in CoOp. 
+This implies that our method can delay the time point where soft prompts tend to plateau during the learning process,
+thereby reducing the probability of learning degradation.
+
+---
+
+<div style="display:flex;">
+    <img src="./figures/low_norm_effect_explanation1.jpg" alt="Explanation 1" style="width:50%;">
+    <img src="./figures/low_norm_effect_explanation2.jpg" alt="Explanation 2" style="width:50%;">
+</div>
 
 
 [//]: # ()

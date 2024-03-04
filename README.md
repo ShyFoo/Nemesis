@@ -19,7 +19,7 @@ Detailed results can be found in the following tables.
 
 ## The Low-Norm Effect
 <figure>
-    <img src="./figures/low_norm_effect.jpg" style="width: 60%; text-align: center" alt="The Low-Norm Effect">
+    <img src="./figures/low_norm_effect.jpg" style="width: 60%" alt="The Low-Norm Effect">
     <figcaption><strong><em>The schematic diagram of the Low-Norm Effect</em></strong></figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ _**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced pe
 
 ---
 <figure>
-    <img src="./figures/low_norm_effect_frequency.jpg" style="width: 49%; text-align: center" alt="The frequency across 11 datasets">
+    <img src="./figures/low_norm_effect_frequency.jpg" style="width: 49%" alt="The frequency across 11 datasets">
     <figcaption><strong><em>The frequency of the Low-Norm Effect across 11 datasets</em></strong></figcaption>
 </figure>
 
@@ -65,11 +65,20 @@ thereby reducing the probability of learning degradation.
 ---
 
 ## Main Results
-<div style="display:flex; flex-direction: row">
-    <img src="./figures/result_few_shot_classification.jpg" alt="Result 1" style="width: 29%">
-    <img src="./figures/result_domain_generalization.jpg" alt="Result 2" style="width: 50%">
-    <img src="./figures/reulst_base_to_new.jpg" alt="Result 3" style="width: 29%">
-</div>
+<figure>
+    <img src="./figures/result_few_shot_classification.jpg" style="width: 30%" alt="The result of few-shot classification task">
+    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
+</figure>
+
+<figure>
+    <img src="./figures/result_domain_generalization.jpg" style="width: 50%" alt="The result of domain generalization task">
+    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
+</figure>
+
+<figure>
+    <img src="./figures/reulst_base_to_new.jpg" style="width: 40%" alt="The result of base-to-new task">
+    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
+</figure>
 
 ## How to Run
 

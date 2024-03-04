@@ -19,6 +19,10 @@ Detailed results can be found in the following tables.
 ## The Low-Norm Effect
  <img src="./figures/low_norm_effect.jpg" style="text-align: center" width = "456" height = "285" alt="Diagram of the Low-Norm Effect">
 
+A schematic diagram of the Low-Norm Effect: the reduction of norms at specific positions within these prompts enhances performance,
+whereas an increase in norms typically results in performance deterioration.
+
+ <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "285" alt="Diagram of the Low-Norm Effect">
 
 
 [//]: # ()

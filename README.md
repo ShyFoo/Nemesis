@@ -48,8 +48,8 @@ thereby reducing the probability of learning degradation.
 ---
 
 <div style="display:flex;">
-    <img src="./figures/low_norm_effect_explanation1.jpg" alt="Explanation 1" style="width:50%;">
-    <img src="./figures/low_norm_effect_explanation2.jpg" alt="Explanation 2" style="width:50%;">
+    <img src="./figures/low_norm_effect_explanation1.jpg" alt="Explanation 1" style="width:49%;">
+    <img src="./figures/low_norm_effect_explanation2.jpg" alt="Explanation 2" style="width:49%;">
 </div>
 
 

@@ -28,12 +28,14 @@ _**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced pe
 
 ---
 
- <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "270" alt="Diagram of the Low-Norm Effect">
+ <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "275" alt="Diagram of the Low-Norm Effect">
 
 The occurrence frequency of the Low-Norm Effect across 11 datasets. 
 Each distinct color or geometrical shape represents a different dataset.
 
- <img src="./figures/low_norm_effect_explanation.jpg" style="text-align: center" width = "456" height = "270" alt="Diagram of the Low-Norm Effect">
+---
+
+ <img src="./figures/low_norm_effect_explanation.jpg" style="text-align: center" width = "456" height = "275" alt="Diagram of the Low-Norm Effect">
 
 
 

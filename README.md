@@ -66,18 +66,18 @@ thereby reducing the probability of learning degradation.
 
 ## Main Results
 <figure>
+    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
     <img src="./figures/result_few_shot_classification.jpg" style="width: 30%" alt="The result of few-shot classification task">
-    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
 </figure>
 
 <figure>
+    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
     <img src="./figures/result_domain_generalization.jpg" style="width: 50%" alt="The result of domain generalization task">
-    <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
 </figure>
 
 <figure>
-    <img src="./figures/reulst_base_to_new.jpg" style="width: 40%" alt="The result of base-to-new task">
     <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
+    <img src="./figures/reulst_base_to_new.jpg" style="width: 40%" alt="The result of base-to-new task">
 </figure>
 
 ## How to Run

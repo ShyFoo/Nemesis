@@ -35,7 +35,7 @@ Each distinct color or geometrical shape represents a different dataset.
 
 ---
 
- <img src="./figures/low_norm_effect_explanation1.jpg" style="text-align: center" width = "456" height = "285" alt="Explanation">
+ <img src="./figures/low_norm_effect_explanation1.jpg" style="width: 49%; text-align: center" alt="Explanation">
 
 Different from the observed norm variation pattern in CoOp, 
 CoOp+Nemesis (ours) exhibits a distinct trend where norms initially increase,

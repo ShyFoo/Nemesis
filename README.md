@@ -27,8 +27,11 @@ _**Middle**_: soft prompts learned by CoOp;
 _**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced performance.
 
 ---
+<figure>
+    <img src="./figures/low_norm_effect_frequency.jpg" style="width: 49%; text-align: center" alt="The frequency across 11 datasets">
+    <figcaption>The frequency of the Low-Norm Effect across 11 datasets</figcaption>
+</figure>
 
- <img src="./figures/low_norm_effect_frequency.jpg" style="width: 49%; text-align: center" alt="The frequency across 11 datasets">
 
 The occurrence frequency of the Low-Norm Effect across 11 datasets. 
 Each distinct color or geometrical shape represents a different dataset.
@@ -40,11 +43,19 @@ Each distinct color or geometrical shape represents a different dataset.
     <img src="./figures/low_norm_effect_explanation2.jpg" alt="Explanation 2" style="width: 49%">
 </div>
 
-From the left figure, we observe a distinct norm variation pattern in CoOp+Nemesis (ours) that differs from CoOp.
+From the left figure, 
+it is apparent that the norms of soft prompts in CoOp first increase and then level off,
+while test accuracy falls into degradation as norms slowly flatten out.
+By performing corruption operations that decrease the norms of prompt vectors,
+the last green circle may be pushed away from the degradation area and get closer to those small green circles that demonstrate superior performance.
+
+From the right figure, 
+we observe a distinct norm variation pattern in CoOp+Nemesis (ours) that differs from CoOp.
 This pattern demonstrates an initial increase in norms, followed by a subsequent decrease,
 and eventually reaching a stable state.
 Furthermore, the test accuracy exhibits a consistent upward trend before reaching a plateau,
-whereas a declining trend is observed in CoOp. 
+whereas a declining trend is observed in CoOp.
+
 This implies that our method can delay the time point where soft prompts tend to plateau during the learning process,
 thereby reducing the probability of learning degradation.
 

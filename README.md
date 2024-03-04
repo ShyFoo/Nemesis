@@ -8,21 +8,33 @@ To answer an unexplored research question: "Do we need to normalize the soft pro
 we first uncover a phenomenon, called the **Low-Norm Effect** by performing extensive corruption experiments,
 suggesting that reducing the norms of certain learned prompts occasionally enhances the performance of VLMs,
 while increasing them often degrades it.
-To harness this effect, we propose a novel method named **N**ormalizing th**e** soft-pro**m**pt v**e**ctors of vi**si**on-language model**s** (**Nemesis**) to normalize soft-prompt vectors in VLMs. 
+To harness this effect, we propose a novel method named 
+**N**ormalizing th**e** soft-pro**m**pt v**e**ctors of vi**si**on-language model**s** (**Nemesis**) to normalize soft-prompt vectors in VLMs. 
 To the best of our knowledge, our work is the first to systematically investigate the role of norms of soft-prompt vector in VLMs,
 offering valuable insights for future research in soft-prompt tuning.
 
 Besides, we also conduct preliminary to verify the generalizability and effectiveness of Nemesis on other **P**arameter-**EF**ficient **T**uning (**PEFT**) methods,
-including visual prompt tuning ([**VPT**](https://github.com/KMnP/vpt)) and [**Prefix-tuning**](https://github.com/XiangLi1999/PrefixTuning). 
+including [**visual prompt tuning**](https://github.com/KMnP/vpt) and [**prefix-tuning**](https://github.com/XiangLi1999/PrefixTuning). 
 Detailed results can be found in the following tables.
 
 ## The Low-Norm Effect
  <img src="./figures/low_norm_effect.jpg" style="text-align: center" width = "456" height = "285" alt="Diagram of the Low-Norm Effect">
 
 A schematic diagram of the Low-Norm Effect: the reduction of norms at specific positions within these prompts enhances performance,
-whereas an increase in norms typically results in performance deterioration.
+whereas an increase in norms typically results in performance deterioration. 
+_**Top**_: corrupted soft prompts with increased norms leading to decreased performance;
+_**Middle**_: soft prompts learned by CoOp; 
+_**Bottom**_: corrupted soft prompts with reduced norms resulting in enhanced performance.
 
- <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "285" alt="Diagram of the Low-Norm Effect">
+---
+
+ <img src="./figures/low_norm_effect_frequency.jpg" style="text-align: center" width = "456" height = "256" alt="Diagram of the Low-Norm Effect">
+
+The occurrence frequency of the Low-Norm Effect across 11 datasets. 
+Each distinct color or geometrical shape represents a different dataset.
+
+ <img src="./figures/low_norm_effect_explanation.jpg" style="text-align: center" width = "456" height = "256" alt="Diagram of the Low-Norm Effect">
+
 
 
 [//]: # ()

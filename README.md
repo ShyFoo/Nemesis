@@ -62,8 +62,6 @@ whereas a declining trend is observed in CoOp.
 This implies that our method can delay the time point where soft prompts tend to plateau during the learning process,
 thereby reducing the probability of learning degradation.
 
----
-
 ## Main Results
 <figure>
     <figcaption><strong><em>Few-shot classification</em></strong></figcaption>
@@ -79,8 +77,6 @@ thereby reducing the probability of learning degradation.
     <figcaption><strong><em>Base-to-new generalization</em></strong></figcaption>
     <img src="./figures/result_base_to_new.jpg" style="width: 40%" alt="The result of base-to-new task">
 </figure>
-
----
 
 ## How to Run
 

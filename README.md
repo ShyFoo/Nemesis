@@ -84,8 +84,35 @@ thereby reducing the probability of learning degradation.
 
 ## How to Run
 
+First, you should follow the instructions in [DATASETS.md](./DATASETS.md) to download datasets.
 
+Next, we provide the running scripts in `./scripts`, which allow you to reproduce the results.
 
+Make sure you change the path in bash file (`/path/to/dataset`) and run the commands under different paths,
+including `coop`, `coop_crt` (coop+corruption), `coop_nemesis`, `plot`, `plot_nemesis`.
+
+The running commands of few-shot learning, domain generalization, base-to-new tasks can refer to [COOP.md](COOP.md). 
+
+Here, we provide examples on how to conduct corruption experiments based on CoOp (`./scripts/coop_crt/eval_loop.sh`):
+### Corruption Experiments
+```bash
+# original
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 50 original 666 666
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 2 False 50 original 666 666
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep100 end 16 4 False 100 original 666 666
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep100 end 16 8 False 100 original 666 666
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50 end 16 16 False 200 original 666 666
+# replace
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 100 replace 0 0.
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 100 replace 1 0.
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 100 replace 2 0.
+# rescale
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 100 scale 0 0.001
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 100 scale 1 0.001
+CUDA_VISIBLE_DEVICES=0 bash scripts/coop_crt/eval.sh rn50_ep50 end 16 1 False 100 scale 2 0.001
+```
+P.S. the last two parameters represent the corrupt position and the corruption weight in corruption experiments, respectively.
+Hence, they can be set as any number like 666 in the original evaluation since they are not used in this experiment.
 
 ## Citation
 If you use this code in your research, please kindly cite the following paper:
@@ -102,4 +129,4 @@ If you use this code in your research, please kindly cite the following paper:
 ## Acknowledgements
 Our code is based on [CoOp](https://github.com/KaiyangZhou/CoOp). 
 We thank the authors for releasing their code. 
-If you use our model and code, please consider citing these works as well.
+If you use our model and code, please consider citing this work as well.

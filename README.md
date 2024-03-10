@@ -82,7 +82,7 @@ thereby reducing the probability of learning degradation.
 
 First, you should follow the instructions in [DATASETS.md](./DATASETS.md) to download datasets.
 
-Next, you should follow the intructions in [COOP.md](./COOP.md) to install the [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch) environment.
+Next, you should follow the intructions in [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch) to install the `dassl` environment.
 
 Finally, we provide the running scripts in `./scripts`, which allow you to reproduce the results.
 

@@ -82,7 +82,9 @@ thereby reducing the probability of learning degradation.
 
 First, you should follow the instructions in [DATASETS.md](./DATASETS.md) to download datasets.
 
-Next, we provide the running scripts in `./scripts`, which allow you to reproduce the results.
+Next, you should follow the intructions in [COOP.md](./COOP.md) to install the [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch) environment.
+
+Finally, we provide the running scripts in `./scripts`, which allow you to reproduce the results.
 
 Make sure you change the path in bash file (`/path/to/dataset`) and run the commands under different paths,
 including `coop`, `coop_crt` (coop+corruption), `coop_nemesis`, `plot`, `plot_nemesis`.

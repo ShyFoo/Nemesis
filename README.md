@@ -1,4 +1,4 @@
-# Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models (ICLR 2024 Spotlight)
+# Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models
 
 Paper Link: [Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models](https://openreview.net/pdf?id=zmJDzPh1Dm)
 
@@ -13,7 +13,7 @@ To harness this effect, we propose a novel method named
 To the best of our knowledge, our work is the first to systematically investigate the role of norms of soft-prompt vector in VLMs,
 offering valuable insights for future research in soft-prompt tuning.
 
-Besides, we also conduct preliminary to verify the generalizability and effectiveness of Nemesis on other **P**arameter-**EF**ficient **T**uning (**PEFT**) methods,
+Besides, we also conduct preliminary experiments to verify the generalizability and effectiveness of Nemesis on other **P**arameter-**EF**ficient **T**uning (**PEFT**) methods,
 including [**visual prompt tuning**](https://github.com/KMnP/vpt) and [**prefix-tuning**](https://github.com/XiangLi1999/PrefixTuning). 
 Detailed results can be found in the following tables.
 

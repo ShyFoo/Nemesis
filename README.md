@@ -118,7 +118,7 @@ If you use this code in your research, please kindly cite the following paper:
 @inproceedings{nemesis,
   title={Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models},
   author={Fu, Shuai and Wang, Xiequn and Huang, Qiushi and Zhang, Yu},
- booktitle={The Twelfth International Conference on Learning Representations},
+  booktitle={The Twelfth International Conference on Learning Representations},
   year={2024}
 }
 ```

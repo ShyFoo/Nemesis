@@ -1,0 +1,37 @@
+# Experiment artifacts
+output/
+output_crt/
+output_dg/
+*.pth
+*.pth.tar
+events.out.tfevents.*
+runs/
+wandb/
+
+# Datasets & downloaded weights
+data/
+datasets/data/
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.python-version
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

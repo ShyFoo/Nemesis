@@ -1,5 +1,4 @@
 import argparse
-import pdb
 
 import torch
 
@@ -119,7 +118,7 @@ def extend_cfg(cfg):
     cfg.TRAINER.CoOpNemesis.CLASS_TOKEN_POSITION = "end"  # 'middle' or 'end' or 'front'
     cfg.TRAINER.CoOpNemesis.A = None  # the weight of normalization loss
     cfg.TRAINER.CoOpNemesis.NT = "two"  # norm type, "one", "two", "inf"
-    cfg.TRAINER.CoOpNemesis.NP = None  # the number of position for currupting during training
+    cfg.TRAINER.CoOpNemesis.NP = None  # the number of positions for corrupting during training
     cfg.TRAINER.CoOpNemesis.CW = None  # corrupted weight during training
     cfg.TRAINER.CoOpNemesis.BETA = None  # beta coefficient for combining two normalization losses
 
@@ -140,7 +139,7 @@ def extend_cfg(cfg):
     cfg.TRAINER.PLOTNemesis.N = 4
     cfg.TRAINER.PLOTNemesis.A = None  # the weight of normalization loss
     cfg.TRAINER.PLOTNemesis.NT = "two"  # norm type, "one", "two", "inf"
-    cfg.TRAINER.PLOTNemesis.NP = None  # the number of position for currupting during training
+    cfg.TRAINER.PLOTNemesis.NP = None  # the number of positions for corrupting during training
     cfg.TRAINER.PLOTNemesis.CW = None  # corrupted weight during training
     cfg.TRAINER.PLOTNemesis.BETA = None  # beta coefficient for combining two normalization losses
 

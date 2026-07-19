@@ -1,4 +1,3 @@
-import pdb
 import random
 import math
 import os.path as osp
@@ -158,7 +157,7 @@ class PromptLearner(nn.Module):
                     ],
                     dim=1,
                 )
-                prompts.appund(prompt)
+                prompts.append(prompt)
             prompts = torch.cat(prompts, dim=0)
 
         elif self.class_token_position == "front":
@@ -178,7 +177,7 @@ class PromptLearner(nn.Module):
                     ],
                     dim=1,
                 )
-                prompts.appund(prompt)
+                prompts.append(prompt)
             prompts = torch.cat(prompts, dim=0)
 
         else:
